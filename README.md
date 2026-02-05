@@ -1,18 +1,19 @@
 ## Project Title
 
-GBDA302 Week 2 Example 1: Blob (Breathing Animation)
+GBDA302 Week 2 Side Quest 2: Blob (Breathing Animation) Evoking an Emotion
 
 ---
 
 ## Authors
 
-Karen Cochrane and David Han
+Karen Cochrane and David Han (Original Template)
+Yukie Fan (Edited to fit Side Quest Requirements)
 
 ---
 
 ## Description
 
-A simple animated “blob” made from a ring of points. Perlin noise perturbs the radius over time to create an organic, breathing effect. No input yet.
+An edited version of the template provided meant to change the blob to representa certain emotion. As per the Side Quest, the edited blob is to represent frustration.
 
 ---
 
@@ -20,9 +21,8 @@ A simple animated “blob” made from a ring of points. Perlin noise perturbs t
 
 Learning Goals:
 
-- Understand setup()/draw() structure
-- Build a custom shape from polar points
-- Use noise() for smooth, organic motion
+- Understand how to manipulate variables to obtain desired result
+- Familiarize myself with different ways I can change the design
 
 ---
 
@@ -34,6 +34,6 @@ N/A
 
 ## GenAI
 
-The code was written by Dr. Karen Cochrane but she used GenAI to write the comments.
+The code was written by Dr. Karen Cochrane but she used GenAI to write the comments. No GenAI was used to edit this code for Side Quest submission.
 
 ---
