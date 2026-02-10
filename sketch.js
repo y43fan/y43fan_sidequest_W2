@@ -6,15 +6,15 @@ let blob = {
 
   // Base size and shape resolution
   r: 28, // Base radius of the blob
-  points: 20, // Number of vertices around the circle (higher = smoother)
+  points: 20, // Number of vertices around the circle (higher = smoother) <-- Added more points to create a more hostile blob
 
   // Shape deformation settings
-  wobble: 200, // Maximum amount the edge can move in or out
-  wobbleFreq: 10, // Controls how =lumpy or smooth the blob looks
+  wobble: 200, // Maximum amount the edge can move in or out <-- Increased movement of the wobbles to create a more erratic blob with points that jab out more
+  wobbleFreq: 10, // Controls how =lumpy or smooth the blob looks <-- Adjusted the number to make the blob more lumpy
 
   // Time values for animation
   t: 0, // Time input for noise()
-  tSpeed: 0.15, // How fast the blob "breathes"
+  tSpeed: 0.15, // How fast the blob "breathes" <-- Changed to make the breathing faster, creating more rapid movement
 };
 
 function setup() {
